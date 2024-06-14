@@ -1,0 +1,23 @@
+@import url('./contacts.css');
+@import url('./navbar.css');
+@import url('./header.css');
+@import url('./courses.css');
+@import url('./aboutus.css');
+@import url('./teacher.css');
+@import url('./status.css');
+@import url('./topic.css');
+@import url('./faq.css');
+@import url('./footer.css');
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../font/Vazir-Medium.eot) format("eot");
+  src: url(../font/Vazir-Medium.woff) format("woff");
+  src: url(../font/Vazir-Medium.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+

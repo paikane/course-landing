@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه اصلی</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/css-framework.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- start contact section -->
+    <div class="container-fluid container-fluid-custom">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-6 col-s-6 col-md-6 col-l-6 col-xl-6 contact">
+            <i class="fa-regular fa-envelope xs-hidden s-hidden md-visible"
+              ><span>m.mehdi.paikane@gmail.com</span></i
+            >
+            <i class="fas fa-phone"><span>09033060818</span></i>
+          </div>
+          <div class="col-xs-6 col-s-6 col-md-6 col-l-6 col-xl-6 social-media">
+            <a href=""><i class="fab fa-telegram"></i></a>
+            <a href="" class="xs-hidden s-hidden md-visible"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="" class="xs-hidden s-hidden md-visible"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href=""><i class="fa-solid fa-rss"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact section -->
+    <!-- start navbar section -->
+    <nav class="nav" id="mynav">
+      <div class="container">
+        <a href=""><i class="fas fa-graduation-cap fa-lg"></i></a>
+        <a href="">دوره های آموزشی</a>
+        <a href="">مطالب</a>
+        <a href="">تیم ما</a>
+        <a href="">درباره ما</a>
+        <a href="javascript:void(0);" class="bar" onclick="myFunc();"
+          ><i class="fas fa-bars fa-lg"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- end navbar section -->
+    <!-- start header section -->
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-s-12 col-md-12 col-l-12 col-xl-12 p-0">
+          <figure>
+            <div class="overlay absolute">
+              <div class="header-tittle">
+                <h1 class="mb-20">مبتکر آموزش نوین</h1>
+                <h3 class="mb-20">
+                  برگزار کننده دوره های برنامه نویسی و دیجیتال مارکتینگ
+                </h3>
+                <a href="">بیشتر بدانید...</a>
+              </div>
+            </div>
+            <img
+              class="img-header img-responsive"
+              src="assets/img/hd2.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- start courses section -->
+    <section class="container-fluid course-wrapper">
+      <div class="section-tittle m-50">
+        <h4>
+          <span> دوره های آموزشی </span>
+        </h4>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی طراحی وب <br />استاد: ممد <br />مدت زمان دوره:
+                    340 دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img
+                  class="img-responsive"
+                  src="assets/img/9933427_4300580.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body relative">
+                <i class="fas fa-code"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره طراحی وب</a>
+                  <p>دوره تخصصی وب</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی برنامه نویسی<br />استاد: مهدی<br />مدت زمان دوره:
+                    340 دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img class="img-responsive" src="assets/img/prog.jpg" alt="" />
+              </div>
+              <div class="card-body relative">
+                <i class="fas fa-code"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره برنامه نویسی </a>
+                  <p>دوره تخصصی برنامه نویسی</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی هوش مصنوعی <br />استاد: علی<br />مدت زمان دوره:
+                    360 دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img class="img-responsive" src="assets/img/ai.jpg" alt="" />
+              </div>
+              <div class="card-body relative">
+                <i class="fa-solid fa-brain"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره هوش مصنوعی</a>
+                  <p>دوره تخصصی هوش مصنوعی</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی برنامه نویسی کودکان<br />استاد: حسین<br />مدت
+                    زمان دوره: 200 دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img
+                  class="img-responsive"
+                  src="assets/img/child-programming.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body relative">
+                <i class="fas fa-code"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره برنامه نویسی کودکان</a>
+                  <p>دوره تخصصی برنامه نویسی کودکان</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی ویدئوگرافی<br />استاد: زهرا<br />مدت زمان دوره:
+                    240 دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img
+                  class="img-responsive"
+                  src="assets/img/videograph.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body relative">
+                <i class="fa-solid fa-video"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره ویدئوگرافی</a>
+                  <p>دوره تخصصی ویدئوگرافی</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-4 col-xl-4 mb-20"
+          >
+            <div class="card">
+              <div class="card-header relative">
+                <div class="card-overlay absolute">
+                  <p class="absolute">
+                    دوره تخصصی عکاسی<br />استاد: حامد<br />مدت زمان دوره: 180
+                    دقیقه <br />پشتیبانی: دارد
+                  </p>
+                </div>
+                <img
+                  class="img-responsive"
+                  src="assets/img/photograph.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body relative">
+                <i class="fa-solid fa-camera"></i>
+                <div class="card-tittle absolute">
+                  <a href="">دوره عکاسی</a>
+                  <p>دوره تخصصی عکاسی</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end courses section -->
+    <!-- start about us section -->
+    <section class="container-fluid">
+      <div class="section-tittle m-50">
+        <h4>
+          <span> دربــاره مــا</span>
+        </h4>
+      </div>
+      <div class="row">
+        <div
+          class="col-xs-12 xol-s-12 col-md-6 col-l-5 col-xl-5 about-us-right-side"
+        >
+          <img class="img-responsive" src="assets/img/about-us.png" alt="" />
+        </div>
+        <div
+          class="col-xs-12 xol-s-12 col-md-6 col-l-7 col-xl-7 mt-20 about-us-left-side"
+        >
+          <h4>دربــاره مــا</h4>
+          <p>
+            تیم برنرز لی، مخترع وب، با برپایی یک سایت وب در اوت ۱۹۹۱، نام خود را
+            به عنوان نخستین سازندهٔ وب در تاریخ نگاشت. او در نخستین وب سایتش، از
+            اَبَرمتن و پیوندی برای ایمیل (پست الکترونیک) استفاده کرده بود. در
+            آغاز، وب سایت‌ها با کُدهای ساده HTML نوشته می‌شدند
+          </p>
+          <a href="">ادامه مطلب...</a>
+        </div>
+      </div>
+    </section>
+    <!-- end about us section -->
+    <!-- start teacher section -->
+    <section class="container-fluid teacher-section-wrapper">
+      <div class="row">
+        <div
+          class="col-xs-12 col-s-12 col-md-12 col-l-8 col-xl-8 col-l-offset-2 col-xl-offset-2 relative"
+        >
+          <img class="img-responsive" src="assets/img/teacher.png" alt="" />
+          <div class="teacher-intro absolute">
+            <h3>مدرسین سیستم آموزشی <span>نوین</span></h3>
+            <a href="">بیشتر...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end teacher section -->
+    <!-- start status section -->
+    <section class="container-fluid status-section-wrapper">
+      <div class="row">
+        <div class="container">
+          <div class="col-xs-3 col-s-3 col-md-3 col-l-3 col-xl-3 text-center">
+            <i class="far fa-newspaper"></i>
+            <div class="count">123</div>
+            <p class="count-tittle">مقالات</p>
+          </div>
+          <div class="col-xs-3 col-s-3 col-md-3 col-l-3 col-xl-3 text-center">
+            <i class="fas fa-user"></i>
+            <div class="count">12376</div>
+            <p class="count-tittle">کاربر فعال</p>
+          </div>
+          <div class="col-xs-3 col-s-3 col-md-3 col-l-3 col-xl-3 text-center">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <div class="count">50</div>
+            <p class="count-tittle">اساتید</p>
+          </div>
+          <div class="col-xs-3 col-s-3 col-md-3 col-l-3 col-xl-3 text-center">
+            <i class="fas fa-medal"></i>
+            <div class="count">10</div>
+            <p class="count-tittle">جوایز</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end status section -->
+    <!-- start topic section -->
+    <section class="container-fluid topic-section-wrapper">
+      <div class="section-tittle m-50">
+        <h4>
+          <span>جدید ترین مطالب</span>
+        </h4>
+      </div>
+      <div class="row" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/php.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص php</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img class="img-responsive" src="assets/img/js.png" alt="" />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص js</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/java.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص java</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/python.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص python</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/laravel.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص laravel</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img class="img-responsive" src="assets/img/ui.png" alt="" />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص ui</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img class="img-responsive" src="assets/img/wp.png" alt="" />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص wordpress</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xs-10 col-xs-offset-1 col-s-6 col-md-6 col-l-3 col-xl-3 topic-wrapper mb-20"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <img
+                    class="img-responsive"
+                    src="assets/img/flutter.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body relative">
+                  <div class="post-date absolute">
+                    <div>10</div>
+                    <div>مرداد</div>
+                  </div>
+                  <a href="">دوره متخصص flutter</a>
+                  <p>در این جلسه میپردازیم به ادامه مباحث این دوره...</p>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li><i class="far fa-eye"></i><span>123</span></li>
+                    <li><i class="far fa-comments"></i><span>123</span></li>
+                    <li><i class="far fa-heart"></i><span>123</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end topic section -->
+    <!-- start faq section -->
+    <section class="container-fluid faq-section-wrapper mt-100">
+      <div class="section-tittle m-50">
+        <h4>
+          <span>سوالات متداول</span>
+        </h4>
+      </div>
+      <div class="row faq-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+              <div class="faq-right-side">
+                <ul>
+                  <li class="mb-20">
+                    <h6>
+                      <i class="fa-solid fa-headset"></i> پشتیبانی 24 ساعته
+                    </h6>
+                    <p>پشتیبانی 24 ساعته در تمام ایام هفته به صورت رایگان</p>
+                  </li>
+                  <li class="mb-20">
+                    <h6><i class="fas fa-history"></i> پاسخ گویی 24 ساعته</h6>
+                    <p>
+                      پاسخ گویی 24 ساعته در تمام ایام هفته به صورت سریع و رایگان
+                    </p>
+                  </li>
+                  <li class="mb-20">
+                    <h6>
+                      <i class="fa-regular fa-handshake"></i>معرفی به بازار کار
+                    </h6>
+                    <p>معرفی برترین ها به بازار کار و شرکت های معتبر</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-6">
+              <div class="faq-left-side">
+                <div class="tabs">
+                  <div class="tab first-tab">
+                    <input type="checkbox" id="chck1" />
+                    <label class="tab-label" for="chck1"
+                      >آیا این دوره برای من مفید است؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck2" />
+                    <label class="tab-label" for="chck2"
+                      >دسترسی محتوا به چه صورت میباشد؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck3" />
+                    <label class="tab-label" for="chck3"
+                      >آیا تمامی سرفصل ها تدریس میشوند؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck4" />
+                    <label class="tab-label" for="chck4"
+                      >آیا شرایط ویژه برای پرداخت وجود دارد؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck5" />
+                    <label class="tab-label" for="chck5"
+                      >مدت زمان این دوره چقدر است؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck6" />
+                    <label class="tab-label" for="chck6"
+                      >آیا بعد از اتمام دوره میتوانیم به کدنویسی
+                      بپردازیم؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                  <div class="tab last-tab">
+                    <input type="checkbox" id="chck7" />
+                    <label class="tab-label" for="chck7"
+                      >پشتیبانی دوره در چه بازه های زمانی صورت میگیرد؟</label
+                    >
+                    <div class="tab-content">
+                      پلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون
+                      بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                      برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با
+                      هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+                      می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                      رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+                      فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                      رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و
+                      جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد
+                      استفاده قرار گیرد.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end faq section -->
+    <!-- start footer section -->
+    <footer class="footer-section-wrapper mt-100">
+      <div class="row footer-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-3">
+              <div class="desc">
+                <a href=""><i class="fas fa-graduation-cap"></i>آموزش نوین</a>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-3">
+              <div class="service">
+                <h6>خدمات ما</h6>
+                <ul>
+                  <li><a href="">دوره آموزشی</a></li>
+                  <li><a href="">واحد آموزشی</a></li>
+                  <li><a href="">ارتباط با مدیریت</a></li>
+                  <li><a href="">واحد فروش</a></li>
+                  <li><a href="">واحد پشتیبانی</a></li>
+                  <li><a href="">امور آموزشکده ها</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-3">
+              <div class="social">
+                <h6>ما را در شبکه های اجتماعی دنبال کنید</h6>
+                <ul>
+                  <a href=""><i class="fab fa-telegram"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fa-solid fa-rss"></i></a>
+                </ul>
+                <form action="" class="relative">
+                  <input type="text" placeholder="اشتراک در خبرنامه ..." />
+                  <input class="absolute" type="submit" value="عضویت" />
+                </form>
+              </div>
+            </div>
+            <div class="col-xs-12 col-s-12 col-md-6 col-l-6 col-xl-3">
+              <div class="contact-us">
+                <h6>راه های ارتباط با ما</h6>
+                <ul>
+                  <li>
+                    <i class="fa-regular fa-envelope"></i
+                    ><span>m.mehdi.paikane@gmail.com</span>
+                  </li>
+                  <li><i class="fas fa-phone"></i><span>09033060818</span></li>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i
+                    ><span>تهران-ولیعصر-کوچه حسنی-بن بست لاله-پلاک 22</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        تمامی حقوق این وب سایت متعلق است به سیستم آموزشی نوین
+      </div>
+    </footer>
+    <!-- end footer section -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+.faq-section-bg {
+  background-image: url("../img/faq.png");
+  min-height: 500px;
+}
+
+.faq-section-wrapper .faq-right-side {
+  box-shadow: 0px 0px 10px 2px rgba(12, 33, 118, 0.2);
+  margin-top: 120px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+}
+.faq-section-wrapper .faq-right-side h6 {
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-right-side h6 i {
+  color: rgb(47, 47, 216);
+  font-size: 32px;
+  margin-left: 16px;
+  vertical-align: -7px;
+}
+.faq-section-wrapper .faq-right-side p {
+  font-size: 13px;
+  color: #acacac;
+  margin: 5px 54px 0 0;
+}
+.faq-section-wrapper .faq-left-side {
+  margin-top: 120px;
+}
+.faq-section-wrapper .faq-left-side .first-tab {
+  border-radius: 15px 15px 0 0;
+}
+.faq-section-wrapper .faq-left-side .last-tab {
+  border-radius: 0 0 15px 15px;
+}
+.faq-section-wrapper .faq-left-side .tabs {
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(12, 33, 118, 0.2);
+  border-radius: 15px;
+}
+.faq-section-wrapper .faq-left-side .tab {
+  overflow: hidden;
+}
+.faq-section-wrapper .faq-left-side .tab-label {
+  background-color: rgb(47, 47, 216);
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-size: 16px;
+}
+.faq-section-wrapper .faq-left-side .tab-label:hover {
+  background-color: rgb(28, 28, 151);
+}
+.faq-section-wrapper .faq-left-side .tab-label::after {
+  content: "\276f";
+  text-align: center;
+  transition: 0.5s ease;
+  padding-top: 2px;
+  float: left;
+}
+.faq-section-wrapper .faq-left-side .tab-content {
+  background-color: #fff;
+  color: #000;
+  height: 0px;
+  transition: 0.5s ease;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content {
+  height: 80px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.faq-section-wrapper .faq-left-side input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+}
+.faq-section-wrapper .faq-left-side input {
+  display: none;
+}
+.tab-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.tab-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.tab-content::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.tab-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

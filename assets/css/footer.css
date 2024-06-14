@@ -1,0 +1,116 @@
+.footer-section-wrapper {
+  background-color: rgb(0, 0, 53);
+  min-height: 300px;
+}
+.footer-section-wrapper .copy-right {
+  color: #4a4a4a;
+  text-align: center;
+  border-top: 1px solid rgb(40, 40, 93);
+  font-size: 13px;
+  padding: 10px;
+}
+.footer-section-wrapper .desc {
+  padding: 10px;
+}
+.footer-section-wrapper .desc a i {
+  font-size: 35px;
+  color: orange;
+  transform: rotate(-20deg);
+  padding-left: 15px;
+  vertical-align: -5px;
+}
+.footer-section-wrapper .desc a {
+  color: #fff;
+  padding-right: 15px;
+  font-size: 15px;
+}
+.footer-section-wrapper .desc p {
+  font-size: 13px;
+  color: #b9b9b9;
+  padding: 20px;
+}
+.footer-section-wrapper .service,
+.social,
+.contact-us {
+  color: #878788;
+  padding: 26px 14px;
+}
+.footer-section-wrapper .service h6,
+.social h6,
+.contact-us h6 {
+  font-size: 15px;
+  border-bottom: 1px solid rgb(40, 40, 93);
+  padding-bottom: 11px;
+}
+.footer-section-wrapper .service ul {
+  font-size: 15px;
+  padding-top: 6px;
+}
+.footer-section-wrapper .service ul li {
+  font-size: 13px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .service ul li:hover {
+  color: yellow;
+  padding-right: 15px;
+}
+.footer-section-wrapper .service ul li a:hover {
+  color: yellow;
+}
+.footer-section-wrapper .service ul li::before {
+  content: "\276f";
+  padding-left: 10px;
+  vertical-align: -1px;
+}
+.footer-section-wrapper .service ul li a {
+  color: #b9b9b9;
+}
+.footer-section-wrapper .social ul {
+  direction: ltr;
+  text-align: center;
+  padding-top: 15px;
+}
+.footer-section-wrapper .social ul a {
+  color: #b9b9b9;
+  padding-right: 15px;
+  transition: 0.5s ease;
+}
+.footer-section-wrapper .social ul a:hover {
+  color: yellow;
+}
+.footer-section-wrapper .social form {
+  margin-top: 40px;
+}
+.footer-section-wrapper .social form input[type="text"] {
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  font-size: 11px;
+  outline: none;
+}
+.footer-section-wrapper .social form input[type="submit"] {
+  border: none;
+  background-color: orange;
+  color: white;
+  top: 0px;
+  left: 0px;
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  cursor: pointer;
+}
+.footer-section-wrapper .contact-us ul {
+  padding-top: 18px;
+  color: #b9b9b9;
+}
+.footer-section-wrapper .contact-us ul li {
+  margin-bottom: 12px;
+}
+.footer-section-wrapper .contact-us ul li i {
+  margin-left: 12px;
+  vertical-align: -1px;
+}
+.footer-section-wrapper .contact-us ul li span {
+  font-size: 14px;
+}

@@ -1,0 +1,78 @@
+.topic-section-wrapper {
+  background-image: url("../img/topic-back.png");
+  background-position: left;
+  /* height: 700px; */
+  background-repeat: no-repeat;
+  /* margin-top: 50px; */
+}
+.topic-wrapper .card-header {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.topic-wrapper .card-header img {
+  transition: 0.5s ease;
+}
+.topic-wrapper img:hover {
+  transform: scale(1.5) rotate(-10deg);
+}
+.topic-wrapper .card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(12, 33, 118, 0.2) !important;
+}
+.topic-wrapper .card-body {
+  margin: 35px 10px;
+}
+.topic-wrapper .card-body a {
+  font-size: 15px;
+  padding: 6px;
+  color: black;
+}
+.topic-wrapper .card-body .post-date {
+  top: -61px;
+  right: 20px;
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.topic-wrapper .card-body .post-date div:first-child {
+  background-color: orange;
+  padding-top: 2px;
+  border-radius: 5px 5px 0 0;
+}
+.topic-wrapper .card-body .post-date div:last-child {
+  background-color: #efefef;
+  color: black;
+  padding-bottom: 2px;
+  border-radius: 0 0 5px 5px;
+}
+
+.topic-wrapper .card-body p {
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 20px;
+  color: #888;
+}
+.topic-wrapper .card-footer ul {
+  text-align: center;
+  border-top: 1px solid #f3f3f3;
+}
+.topic-wrapper .card-footer ul li {
+  display: inline-block;
+  text-align: center;
+}
+.topic-wrapper .card-footer .fa-eye:hover {
+  color: black;
+}
+.topic-wrapper .card-footer .fa-comments:hover {
+  color: rgb(63, 63, 249);
+}
+.topic-wrapper .card-footer .fa-heart:hover {
+  color: red;
+}
+.topic-wrapper .card-footer ul li i,
+.topic-wrapper .card-footer ul li span {
+  color: #d0d0d0;
+  font-size: 13px;
+  margin: 0 4px;
+}

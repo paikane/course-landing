@@ -1,0 +1,83 @@
+.section-tittle {
+  text-align: center;
+}
+.section-tittle span {
+  position: relative;
+  display: inline-block;
+}
+.section-tittle span::before {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 13px;
+  right: -70px;
+}
+.section-tittle span::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 13px;
+  left: -70px;
+}
+.card {
+  box-shadow: 0px 0px 10px 1px #d2d2d2;
+  cursor: pointer;
+  /* height: 295px; */
+  background: #fff;
+  border-radius: 10px;
+}
+.card .card-header img{
+  border-radius: 10px 10px 0 0;
+}
+.card-body {
+  margin: 13px;
+  padding-bottom: 15px;
+}
+.card-body .card-tittle {
+  top: -13px;
+  right: 50px;
+}
+.card-body i {
+  color: rgb(5, 5, 64);
+  margin-right: 14px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.card-body .card-tittle a {
+  font-size: 16px;
+  color: black;
+}
+.card-body .card-tittle p {
+  font-size: 13px;
+  color: #888888;
+}
+.card-header .card-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  border-radius: 10px 10px 0 0;
+}
+.card:hover .card-overlay {
+  opacity: 1;
+}
+.card .card-overlay p {
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+}
+.course-wrapper {
+  background-image: url("../img/1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}

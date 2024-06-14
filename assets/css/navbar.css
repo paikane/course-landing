@@ -1,0 +1,53 @@
+.nav {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #b5b5b5;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav a {
+  float: right;
+  color: rgb(45, 45, 45);
+  text-align: center;
+  padding: 16px 15px;
+  font-size: 14px;
+}
+.fa-graduation-cap {
+  color: rgb(255, 166, 0);
+  font-size: 28px;
+  /* padding-top: 11px; */
+}
+.fa-bars {
+  color: rgb(255, 166, 0);
+}
+.nav a:hover {
+  border-bottom: 3px solid orange;
+}
+.bar {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+
+  .nav a.bar {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
