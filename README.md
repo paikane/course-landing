@@ -35,8 +35,8 @@ To get a local copy up and running follow these simple example steps.
 ```
 ### Usage
 
-Open the `index` file with your browser to see the webpage.
-You can also open the [GitHub pages deployment](https://paikane.github.io/course-landing/) to see a live version of the webpage.
+- Open the `index` file with your browser to see the webpage.
+- You can also open the [GitHub pages deployment](https://paikane.github.io/course-landing/) to see a live version of the webpage.
 
 <br/>
 
