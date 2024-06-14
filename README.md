@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 - Copy the repo link and clone it in your local machine
 - You can execute the following command in your git bash:
 ```bash
-  git clone https://github.com/paikane/simple-course-landing.git
+  git clone https://github.com/paikane/course-landing.git
 ```
 ### Usage
 
