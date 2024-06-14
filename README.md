@@ -12,7 +12,7 @@ This is my first landing page project developed with html and css pure, this web
 
 ## Live Demo
 
-[GitHub pages deployment](https://paikane.github.io/simple-course-landing/)
+[GitHub pages deployment](https://paikane.github.io/course-landing/)
 
 <br/>
 
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 Open the `index` file with your browser to see the webpage.
-You can also open the [GitHub pages deployment](https://paikane.github.io/simple-course-landing/) to see a live version of the webpage.
+You can also open the [GitHub pages deployment](https://paikane.github.io/course-landing/) to see a live version of the webpage.
 
 <br/>
 
